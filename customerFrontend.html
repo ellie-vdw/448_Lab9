@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css" media="all"/>
+	</head>
+	<body>
+		<form name="myForm" id="myForm" action="customerBackend.php" onsubmit="return validate()" method="post">
+			Username: <input type="text" name="username" id="username"><br>
+			Password: <input type="text" name="password" id="password"><br>
+			<div>
+				<input type="checkbox" id="item1" name="item1" value="HarryPotter"/>
+				<label for="item1">Harry Potter Full Series - $50</label>
+				<input type="checkbox" id="item2" name="item2" value="PercyJackson"/>
+				<label for="item1">Percy Jackson Full Series - $45</label>
+				<input type="checkbox" id="item3" name="item3" value="HungerGames"/>
+				<label for="item1">Hunger Games Full Series - $35</label>
+			</div>
+			<div>
+				<h2>Shipping Method</h2>
+				<input type="radio" name="shipping" id="shipping1" value="free"/>
+				<label for="shipping1">Free 7 Day</label>
+				<input type="radio" name="shipping" id="shipping2" value="50"/>
+				<label for="shipping2">$50.00 over night</label>
+				<input type="radio" name="shipping" id="shipping3" value="5">
+				<label for="shipping3">$5.00 three day</label>
+			</div>
+			<input type="submit" id="submit"/>
+			<input type="reset" id="reset"/>
+		</form>
+	</body>
+	<script src="formChecker.js"></script>
+</html>

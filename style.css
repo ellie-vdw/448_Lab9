@@ -1,0 +1,42 @@
+body
+{
+	background-color: f2a490;
+}
+#title
+{
+	color: de5b6d;
+	font-family: cursive;
+	font-size: 70px;
+}
+#myForm
+{
+	color: de5b6d;
+	font-family: cursive;
+	font-size: 30px;
+}
+p
+{
+	color: de5b6d;
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#username
+{
+	color: 478ba2;
+	font-family: cursive;
+}
+#password
+{
+	color: 478ba2;
+	font-family: cursive;
+}#submit
+{
+	color: 478ba2;
+	font-family: cursive;
+}
+#reset
+{
+	color: 478ba2;
+	font-family: cursive;
+}
